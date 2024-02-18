@@ -44,8 +44,8 @@ const handleSelectItem = (item: string) => {
   
   return <div>
 
-    <TaxRate metro="version" rate={0.1}/>
-    <ListGroup items={metros} heading="Metro:Rate" rates={rates} onSelectItem={handleSelectItem}/>
+    <TaxRate metro="ver" rate={0.1}/>
+    <ListGroup items={metros} heading="Metro : Rate" rates={rates} onSelectItem={handleSelectItem}/>
     
     </div>
 
